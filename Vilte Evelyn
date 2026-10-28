@@ -1,0 +1,10 @@
+# Ejercicio 1 - Saludo personalizado
+$nombre = Read-Host "Por favor, escribe tu nombre"
+Write-Host "¡Hola $nombre!"
+
+# Ejercicio 2 - Cálculo de la paga
+$horas = Read-Host "Introduce el número de horas trabajadas"
+$costeHora = Read-Host "Introduce el coste por hora"
+
+$pagaTotal = [double]$horas * [double]$costeHora
+Write-Host "Tu paga correspondiente es: $pagaTotal"
